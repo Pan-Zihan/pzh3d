@@ -11,5 +11,8 @@ To address the geometric randomness bias and multi-view inconsistency issues cau
 ---
 <h1 align="center">Overall working frame diagram</h1>
 Our approach uses a two-stage 3D generative framework. The first stage is to generate an image with a text combined with sketches and depth maps, which is achieved through a fine-tuned diffusion model and conditional adapters. This is followed by the 3D stage of image generation, which is generated using the Neus algorithm to obtain the rendered video and mesh  
+<p align="center">
+  <img src="assets/fig2(2).jpg" width="400">
+</p>
 
 
