@@ -44,6 +44,16 @@ pzh3d
     |-- pzhadapter_sketch_sd15v2.pth
     |-- sd-v1-4.ckpt
 ```
-
+2.Combine sketches with text to generate images
+```bash
+python test_adapter.py --which_cond sketch --cond_path examples/sketch/sofa3.png --cond_inp_type sketch --prompt "A purple sofa." --sd_ckpt models/sd-v1-4.ckpt --resize_short_edge 512 --cond_tau 0.8 --cond_weight 0.8 --n_samples 5 --adapter_ckpt models/t2iadapter_sketch_sd15v2.pth
+```
+3.3D generation
+```bash
+3.1 Generate multi-view images
+python generate.py --ckpt ckpt/syncdreamer-pretrain.ckpt --input testset/sofa3.png --output output/sofa3 --sample_num 4 --cfg_scale 1.5 --elevation 30 --crop_size 200
+3.2 Use the Nues algorithm to generate rendered videos as well as meshes
+python train_renderer.py -i output/sofa3/0.png -n sofa3-neus -b configs/neus.yaml -l output/renderer 
+```
 
 
