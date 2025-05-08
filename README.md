@@ -22,10 +22,12 @@ Install packages in requirments.txt,We trained the model on a single 4090 gpu wi
 conda create -n <environment name>
 conda activate <environment name>
 pip install -r requirments.txt
----
+```
+
 Install tiny-cuda-nn
 ```bash
 git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+```
 
 
 
