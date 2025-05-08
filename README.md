@@ -28,6 +28,10 @@ Install tiny-cuda-nn
 ```bash
 git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
 ```
+Install CLIP
+```bash
+git+https://github.com/openai/CLIP.git
+```
 
 
 
