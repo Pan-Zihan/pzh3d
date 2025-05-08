@@ -17,4 +17,10 @@ Our approach uses a two-stage 3D generative framework. The first stage is to gen
 
 
 ## Install
+Install packages in requirments.txt,We trained the model on a single 4090 gpu with 11.8 CUDA,We recommend using a Linux server for reproduction  
+```bash
+conda create -n <environment name>
+conda activate <environment name>
+pip install -r requirments.txt
+
 
