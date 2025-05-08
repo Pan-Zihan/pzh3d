@@ -56,6 +56,8 @@ python generate.py --ckpt ckpt/syncdreamer-pretrain.ckpt --input testset/sofa3.p
 python train_renderer.py -i output/sofa3/0.png -n sofa3-neus -b configs/neus.yaml -l output/renderer 
 ```
 ## Results
-
+<p align="center">
+  <img src="assets/github图.jpg" width="400">
+</p>
 
 
