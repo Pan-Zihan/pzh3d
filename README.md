@@ -32,6 +32,9 @@ Install CLIP
 ```bash
 git+https://github.com/openai/CLIP.git
 ```
+Download checkpoints [here](https://pan.baidu.com/s/1SZ51OcqDAk68VJOPMnZ_gQ) 
+## RUN
+
 
 
 
