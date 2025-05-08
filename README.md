@@ -34,7 +34,16 @@ git+https://github.com/openai/CLIP.git
 ```
 Download checkpoints [here](https://pan.baidu.com/s/1SZ51OcqDAk68VJOPMnZ_gQ) 
 ## RUN
-
+1.Place the downloaded checkpoint in the corresponding folder
+```bash
+pzh3d
+|-- ckpt
+    |-- ViT-L-14.ckpt
+    |-- pzh3d-pretrain.ckpt
+|-- models
+    |-- pzhadapter_sketch_sd15v2.pth
+    |-- sd-v1-4.ckpt
+```
 
 
 
